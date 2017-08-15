@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HelloWorld</title>
+	<base href="/">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+	<app-root></app-root>
+
+	<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey : "AIzaSyC8kfDChFDnizzGE9uBQ-ZO7I8bS9RcSHA",
+			authDomain : "angular-b7df0.firebaseapp.com",
+			databaseURL : "https://angular-b7df0.firebaseio.com",
+			projectId : "angular-b7df0",
+			storageBucket : "angular-b7df0.appspot.com",
+			messagingSenderId : "42193369309"
+		};
+		firebase.initializeApp(config);
+	</script>
+</body>
+</html>

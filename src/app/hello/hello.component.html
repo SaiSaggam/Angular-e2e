@@ -1,0 +1,17 @@
+<p>
+
+  hello works!!!!!!!!!
+
+</p>
+{{title}}<br>
+Binding a name from an object {{obj.name}}<br>
+Binding an ID from an object {{obj.id}}<br>
+<ul>
+	<li *ngFor= "let i of arr"> {{i}}</li>
+</ul>
+<p *ngIf = "isTrue"> Hello is showing becsause isTrue is set to true </p>
+<p *ngIf = "myName=='steven'"> True</p>
+
+<p>This might cause an error</p>
+<p *ngIf = "myName=='steven'"> True</p>
+<p>Timmy, this might cause a merge error </p>
